@@ -1,9 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:lotto/test.dart';
+import 'BMI.dart';
 import 'basic.dart';
+import 'customForm.dart';
 //import 'package:firebase_admob/firebase_admob.dart';
 //import 'package:firebase_core/firebase_core.dart';
 
 void main() {
+ // Admob.initialize(getAppId());
   runApp(MyApp());
 }
 
@@ -21,7 +25,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Dice(),
+      home: MainPage(),
     );
   }
 }
